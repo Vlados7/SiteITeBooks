@@ -1,7 +1,6 @@
 package ebooks.pages;
 
 import ebooks.blocks.Footer;
-import ebooks.partials.BookSearchItem;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
