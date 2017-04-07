@@ -25,7 +25,7 @@ public class SearchFormTests {
     @Before
     public void setUp(){
         webDriver = new ChromeDriver();
-        webDriver.manage().window().maximize();
+//        webDriver.manage().window().maximize();
         wait = new WebDriverWait(webDriver, 30);
         js = (JavascriptExecutor) webDriver;
         webDriver.get("http://it-ebooks.info/");
@@ -33,7 +33,7 @@ public class SearchFormTests {
         app = new WebApplication(webDriver);
     }
 
-    @After
+//    @After
     public void cleanUp(){
         if (webDriver!=null){
             webDriver.quit();

@@ -18,7 +18,7 @@ public class SearchResultInISBN_Directory {
 
     public WebElement openBook(String titleBook) throws InterruptedException {
         for (int second = 0; ; second++) {
-            if (second >= 7) {
+            if (second >= 30) {
                 break;
             }
             js.executeScript("window.scrollBy(20,200)", "");
